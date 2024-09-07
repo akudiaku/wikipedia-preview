@@ -1,14 +1,13 @@
-name: CI
+name: MAyDatabasePoint 
 
-on:
-  push:
+on: workspace[MAyDatabasePoint]
+  push: Git/autenticatin@doc
     branches: [ main ]
-  pull_request:
+  pull_request: akudiaku@github
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
+  workflow_dispatch:I
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,7 +32,7 @@ jobs:
       
       - name: Cypress Test
         run: npm run build:watch & npm run dev & npm run cypress:run
-  
+ 
       - name: Preparing Demo
         run: ./scripts/demo.sh
 
