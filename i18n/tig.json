@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bbeshir"
+			"Bbeshir",
+			"Kassala"
 		]
 	},
+	"gallery-loading-error": "ነቃስ ተሐበረ እለ ተስዊርት እንዴ ተአትክሬ",
 	"gallery-unknown-author": "ለይት ኣማራ ኬትባይ",
+	"gallery-attribution-learnmore": "ዝያዳ ተዓለም",
 	"read-on-wiki": "ዲብ ዊኪፐድያ ቅርእዎ",
 	"read-more": "ዲብ ዊኪፐድያ ዚያደት ቅርኦ",
 	"preview-offline-cta": "ካልእ ጅርብ"
